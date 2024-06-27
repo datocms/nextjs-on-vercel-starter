@@ -56,9 +56,9 @@ An API token from the DatoCMS project you just created. [Learn to create an API 
 
 ##### `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`
 
-Create a database with following button: after signing up or logging in, it's a single click process.
+Create a database and initialize it with the expected schema, just pressing following button: after signing up or logging in, it's a single click process.
 
-[![Create a database with Turso](https://sqlite.new/button)](https://sqlite.new)
+[![Create a database with Turso](https://sqlite.new/button)](https://sqlite.new?dump=https%3A//raw.githubusercontent.com/datocms/nextjs-with-cache-tags-starter/main/schema.sql)
 
 Copy the database URL and use it to fill the `TURSO_DATABASE_URL` environment variable.
 
